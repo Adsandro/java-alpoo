@@ -1,6 +1,8 @@
 import java.awt.*;
-public class tela extends Frame{
-     tela()
+public class SampleFrame extends Frame{
+
+//  Construindo um frame simples
+    SampleFrame()
     {
         Button b1 = new Button("Botão");
         add(b1);
@@ -10,6 +12,6 @@ public class tela extends Frame{
         setVisible(true);
     }
     public static void main(String[] args){
-        Frame SampleFramefr = new tela();
+        Frame teste = new SampleFrame();
     }
 }
