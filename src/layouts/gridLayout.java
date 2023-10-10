@@ -26,7 +26,7 @@ public class gridLayout extends Frame {
         add(b8);
         add(b9);
 
-        setLayout(new GridLayout(3, 3, 20, 25));
+        setLayout(new GridLayout(9, 1, 0, 0));
         setSize(300, 300);
         setVisible(true);
     }
